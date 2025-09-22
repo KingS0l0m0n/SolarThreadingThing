@@ -1,0 +1,17 @@
+﻿<Window x:Class="SolarThreadingThing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Solar System" Height="500" Width="500">
+    <Canvas x:Name="MyCanvas" Background="Black">
+        
+        <Ellipse x:Name="Sun"
+                 Width="50" Height="50"
+                 Fill="Yellow"
+                 Canvas.Left="225" Canvas.Top="225"/>
+
+      
+        <Ellipse x:Name="Planet"
+                 Width="20" Height="20"
+                 Fill="Blue"/>
+    </Canvas>
+</Window>
